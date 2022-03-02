@@ -63,5 +63,4 @@ app.get('/news/:newspaperId', (req,res) => {
     }).catch(error => console.log(error))
 
 })
-
 app.listen(PORT)
